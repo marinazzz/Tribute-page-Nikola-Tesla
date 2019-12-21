@@ -1,46 +1,112 @@
-h2 {
-    text-transform: uppercase;
+ *{
+  font-family: sans-serif;
+}
+
+
+header {
+  background-color: #D8C8BE;
+  border-bottom: 5px;
+  padding-bottom: 20px;
+}
+
+.menu-item {
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  overflow: hidden;
+  background-color: #1E3D48;
+}
+
+.menu-child {
+  float: left;
+  font-size: smaller;
+  border-right: 1px solid white;
+}
+
+
+.menu-child a { 
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-transform: uppercase;
+  text-decoration: solid;
+}
+
+h1 {
+  text-align: center;
+  letter-spacing: 5px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  margin-top: 50px;
+}
+
+.header-paragraf {
+  color: rgb(44, 46, 46);
+  text-align: center;
+  letter-spacing: 2px;
 }
 
 #about {
-    border: 1px solid #000000;
+  margin: 20px 0px 20px 0px;
 }
 
-/* (0, 1, 2, 3) */
-/* nav#navbar.main-nav ul.nav-item-list li {
-
-} */
-
-/* (0, 1, 1, 0) */
-#navbar .nav-item-list {
-    background-color: hotpink;
+h2, h3, h4 {
+  margin: 80px 0px 20px 5px;
+  text-align: left;
+  font-size: 1.5em;
+  font-style: italic;
+  border-bottom: gray solid 1px;
+  color: #584358;
 }
 
-/* (0, 0, 1, 0) */
-.nav-item-list {
-    background-color: royalblue;
-    padding: 0;
-    margin: 0;
-    list-style-type: none;
+p.about-paragraf {
+  float: right;
+  width: 660px;
+  margin: 5px;
+  font-size: large;
+  text-align: start;
+  letter-spacing: 5px;
+  word-spacing: 8px;
 }
 
-.nav-item {
-    display: inline-block;
+.main-picture {
+  margin-left: 40px;
+
 }
 
-.nav-link {
-    display: inline-block;
-    text-decoration: none;
-    text-transform: uppercase;
-    padding: 20px;
-    margin: 10px;
+#facts {
+ padding: 10px;
+
 }
 
-.nav-link:hover {
-    text-decoration: underline;
-    background-color: greenyellow;
+
+.facts-childs {
+  margin: 10px;
+  font-size: large;
+  text-align: justify;
 }
 
-.nav-item-list {
-    padding: 10px;
+#inspirations {
+  text-align: center;
 }
+
+.quotes-picture {
+  border-radius: 10px;
+}
+
+.qoute-paragraf {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bolder;
+}
+
+footer {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 4px;
+}
+
+
+
+
+
+
+

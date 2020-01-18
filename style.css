@@ -12,19 +12,17 @@ header {
 
 h1 {
   text-align: center;
-  font-size: 3em;
+  font-size: 2em;
   margin: 0;
-  padding-top: 20px;
-  letter-spacing: 5px;
+  padding-top: 2%;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .header-paragraf {
   color: rgb(44, 46, 46);
   text-align: center;
-  letter-spacing: 2px;
   margin: 0;
-  padding-bottom: 20px;
+  padding-bottom: 2%;
 }
 
 .menu-item {
@@ -33,12 +31,12 @@ h1 {
   padding: 0px;
   display: flex;
   flex-direction: row;
-  justify-content: flex-end;
+  justify-content: left;
   background-color: #1E3D48;
 }
 
 .menu-child {
-  font-size: smaller;
+  font-size: 65%;
   border-left: 1px solid white;
   display: block;
 }
@@ -53,9 +51,9 @@ h1 {
 }
 
 h2, h3, h4 {
-  margin: 0px 0px 20px 0px;
+  margin: 5% 0 0 0;
   text-align: center;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-style: italic;
   border-bottom: gray solid 1px;
   color: #584358;
@@ -66,64 +64,34 @@ h2 {
   margin: 0px;
 }
 
-.flex-about {
-  display: flex;
-  width: 100%;
-  flex-direction: row-reverse;
-  justify-content: space-evenly;
-  padding: 10px;
-}
-
 .about-list {
   list-style-type: square;
-  margin-block-start: 3em;
+  padding-left: 10%;
 }
 
 .about-list li {
   margin-bottom: 10px;
 }
 
-.main-picture {
-  flex-shrink: 1;
+.main-picture, .facts-picture {
+  margin-left: 5%; 
 }
 
-#facts, #about, #inspirations {
- padding: 10px;
-}
 
-.flex-facts {
-  display: flex;
-  width: 100%;
-  flex-direction: row-reverse;
-  justify-content: center;
-  align-items: center;
+#facts {
+ padding: 0 5% 0 5%;
 }
 
 .facts-childs {
-  margin: 20px 0 20px 0;
+  margin: 5% 0 5% 0;
   padding-right: 20px;
 }
 
-.flex-container {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: center;
-}
-
-.quotes-wrapper {
-  flex-grow: 2;
-}
-
 .quotes-picture {
-  flex-grow: 1;
-  height: auto;
+  margin: 0 auto;
+  padding: 0 5% 0 5%;
 }
 
-
-
-@media all and (max-width: 800px) {.menu-item, .flex-about, .flex-container {justify-content: space-around;} }
-
-@media all and (max-width: 500px) {.menu-item, .flex-about, .flex-container {flex-direction: column;} }
 
 footer {
   background-color: #F1F1F1;

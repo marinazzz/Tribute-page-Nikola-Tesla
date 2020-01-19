@@ -1,3 +1,4 @@
+@media screen and (min-width:768px) {
 h1 {
     text-align: center;
     font-size: 2.5em;
@@ -56,20 +57,14 @@ h1 {
   
   .flex-about {
     display: flex;
-    width: 100%;
     flex-direction: row-reverse;
     justify-content: space-evenly;
-    padding: 10px;
   }
   
   .about-list {
     list-style-type: square;
-    margin-block-start: 3em;
   }
   
-  .about-list li {
-    margin-bottom: 10px;
-  }
   
   .main-picture {
     flex-shrink: 1;
@@ -81,13 +76,12 @@ h1 {
   
   .flex-facts {
     display: flex;
-    width: 100%;
     flex-direction: row-reverse;
     justify-content: center;
     align-items: center;
   }
   
-  .facts-childs {
+  facts-childs {
     margin: 20px 0 20px 0;
     padding-right: 20px;
   }
@@ -103,10 +97,10 @@ h1 {
     flex-grow: 2;
   }
   
-  .quotes-image {
+  .main-picture, .facts-picture, .quotes-picture {
+    box-sizing: border-box;
+    margin: 0 auto;
     max-width: 100%;
-    display: block;
-    height: auto;
   }
 
   footer {
@@ -114,4 +108,4 @@ h1 {
     text-align: center;
     padding: 4px;
   }
-  
+  }

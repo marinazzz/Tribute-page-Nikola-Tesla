@@ -1,5 +1,5 @@
 @media screen and (min-width:768px) {
-h1 {
+  h1 {
     letter-spacing: 5px;
   }
   
@@ -42,4 +42,4 @@ h1 {
   .quotes-wrapper {
     flex-grow: 1;
   }
-  
+}

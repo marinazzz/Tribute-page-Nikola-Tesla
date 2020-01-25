@@ -43,7 +43,6 @@ h1, h2, .menu-item {
   display: block;
 }
 
-
 .menu-child a { 
   color: white;
   padding: 10px;
@@ -71,10 +70,13 @@ h2 {
   padding-bottom: 5%;
 }
 
-.main-picture, .facts-picture, .quotes-picture {
+.main-picture, .facts-picture {
   box-sizing: border-box;
-  margin: 0 auto;
   max-width: 100%;
+}
+
+.quotes-image {
+  text-align: center;
 }
 
 footer {

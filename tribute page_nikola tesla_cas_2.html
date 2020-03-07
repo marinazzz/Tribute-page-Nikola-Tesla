@@ -2,9 +2,9 @@
 <html>
 <head>
 	<title>Nikola Tesla tribute page</title>
-	<link rel="stylesheet" type="text/css" href="style.css"/>
-	<link rel="stylesheet" media="(min-width:768px)" href="min-width-768px.css"/>
-	<link rel="stylesheet" media="(min-width:992px)" href="min-width-992px.css"/>
+	<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	<link rel="stylesheet" href="css/min-width-768px.css" />
+	<link rel="stylesheet" href="css/min-width-992px.css"/>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
@@ -13,8 +13,12 @@
 		<p class="header-paragraf"><i><q cite="https://www.goodreads.com/author/quotes/278.Nikola_Tesla">
 			Life is and will ever remain an equation incapable of solution, but it contains certain known factors.</q></i></p>
 			
-		<nav>
-			<ul class="menu-item">
+		<nav class="menu">
+			<a href="#menu" class="box-shadow-menu" id="nav-bar"></a>
+			<ul class="menu-item" id="js-menu">			
+			    <li class="menu-child">
+					<a href="#">Home</a>
+				</li>
 				<li class="menu-child">
 					<a href="#about">About Nikola Tesla</a>
 				</li>
@@ -24,17 +28,15 @@
 				<li  class="menu-child">
 					<a href="#inspirations">Quotes</a>
 				</li>
-			</ul>				
+			</ul>		
+					
 		</nav>
 	</header>
 	<main>
 		<section id="about">
 			<h2>Who was Nikola Tesla?</h2>
 		<div class="flex-about">
-		    <picture class= "main-picture">
-				<source srcset="http://zulijani.com/images/nikola-tesla.png"/>
-				<img src="nikola-tesla.png" alt="Nikola Tesla aged 34">
-			</picture>
+				<img class="main-picture" src="image/nikola-tesla.png" alt="Nikola Tesla aged 34">
 			<ul class="about-list">
 				<li>Nikola Tesla was an engineer, physicist, futurist and an inventor.</li>
 				<li> Born on July 10, in the year 1856, and died on January 7, 1943.</li>
@@ -58,7 +60,7 @@
 				<li class="facts-childs"> There is a Nikola Tesla Award which has been named after the genius. The award is given to scientists and inventors who make major contributions to electric power.</li>
 				<li class="facts-childs"> Nikola Tesla died on January 7, 1943, of coronary thrombosis (–a blockage of the flow of blood to the heart, caused by a blood clot in a coronary artery).</li>
 			</ol>
-			<img class="facts-picture" src="https://images.squarespace-cdn.com/content/v1/54f238e7e4b0a83375017edf/1487702810703-U5KR5P1DI64I4NUJ5KG7/ke17ZwdGBToddI8pDm48kFfBku-5vZHIUQ1ivvnEGW4UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8GRo6ASst2s6pLvNAu_PZdJsA9YPA2G5IQrIK4Z4_Al2Q8UxM0OCI93Uf9mGG94OrWb6DT0OVAOEBCTqQFq1-zo/t5.jpg?format=300w"
+			<img class="facts-picture" src="image/teslastanding.jpg"
 			alt="Nikola Tesla standing">
 		</div>
 		</section>
@@ -86,7 +88,7 @@
 			   </blockquote>
 			</div>
 			<div class="quotes-image">
-			   <img class= "quotes-picture" src="https://ceramics.org/wp-content/uploads/2017/12/Nikola-Tesla-600w.png" alt="Inventions of Nikola Tesla">
+			   <img class= "quotes-picture" src="image/tesla109.jpg" alt="Inventions of Nikola Tesla">
 			</div>
 		</div>
 		</section>
@@ -96,5 +98,6 @@
 		<a href="https://github.com/marinazzz">github.com/marinazzz</a>
 	</p>
 	</footer>
+	<script src="js/menu-toggle.js"></script>
 </body>
 </html>

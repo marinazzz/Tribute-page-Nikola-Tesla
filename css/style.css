@@ -1,0 +1,112 @@
+* {
+  font-size: 16px;
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #D8C8BE;
+}
+
+h1 {
+  font-size: 2rem;
+  padding-top: 2%;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1, h2, .menu-item {
+  margin: 0;
+}
+
+.header-paragraf, footer, h1, h2, h3, h4 {
+  text-align: center;
+}
+
+.header-paragraf {
+  color: rgb(44, 46, 46);
+}
+
+.menu-item {
+  list-style-type: none;
+  display: none;
+}
+
+.menu {
+  position: relative;
+}
+
+.box-shadow-menu {
+  position: relative;
+  padding-left: 1em;
+}
+
+.box-shadow-menu:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.25em;
+  width: 1em;
+  height: 0.15em;
+  background: black;
+  box-shadow: 
+    0 0.35em 0 0 black,
+    0 0.7em 0 0 black;
+}
+
+.menu-item.a {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #1E3D48;
+}
+
+h2, h3, h4 {
+  padding: 5% 0 0 0;
+  font-size: 1.3rem;
+  font-style: italic;
+  border-bottom: gray solid 1px;
+  color: #584358;
+}
+
+h2 {
+  padding-top: 20px;
+}
+
+.about-list {
+  list-style-type: square;
+}
+
+.about-list li, .facts-childs {
+  padding-bottom: 5%;
+}
+
+.main-picture, .facts-picture {
+  box-sizing: border-box;
+  max-width: 100%;
+}
+
+.quotes-image {
+  text-align: center;
+}
+
+footer {
+  background-color: #F1F1F1;
+  padding: 2px;
+}
+
+a:-webkit-any-link {
+  color:  #584358;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.menu-child {
+  list-style-type: none;
+  padding-left: 3px;
+
+}

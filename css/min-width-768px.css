@@ -1,0 +1,81 @@
+@media screen and (min-width:768px) {
+  h1 {
+    letter-spacing: 5px;
+  }
+  
+  .header-paragraf {
+    letter-spacing: 2px;
+    margin: 0;
+    padding-bottom: 20px;
+  }
+
+
+  .box-shadow-menu {
+    display: none;
+  }
+  
+.menu-child {
+  border-left: 1px solid white;
+  display: block;
+}
+
+.menu-child a { 
+  color: white;
+  padding: 10px;
+  text-decoration: solid;
+  display: block;
+}
+
+.menu-child a.active {
+  background-color:#99cccc;
+  color: black;
+}
+
+.menu-child a:hover {
+  background-color:#8e9ea3;
+  color: white;
+}
+
+.menu-item {
+  list-style-type: none;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  background-color: #1E3D48;
+} 
+
+  #facts, #about, #inspirations {
+   padding: 0 10px;
+  }
+
+  .flex-about, .flex-facts, .flex-container {
+    display: flex;
+  }
+
+  .flex-about, .flex-facts {
+    flex-direction: row-reverse;
+  }
+   
+  .flex-about {
+    justify-content: space-evenly;
+    align-items: flex-end;
+  }
+  
+  .flex-facts, .flex-container {
+   justify-content: center;
+   align-items: center;  
+  }
+
+  .flex-container {
+    flex-flow: row nowrap;
+  }  
+
+  .main-picture {
+    flex-shrink: 1;
+  }
+
+  .quotes-wrapper {
+    flex-grow: 1;
+  }
+}

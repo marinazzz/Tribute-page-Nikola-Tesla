@@ -36,6 +36,8 @@ h1, h2, .menu-item {
 
 .menu {
   position: relative;
+  text-align: right;
+  padding: 10px;
 }
 
 .box-shadow-menu {
@@ -51,7 +53,7 @@ h1, h2, .menu-item {
   width: 1em;
   height: 0.15em;
   background: black;
-  box-shadow: 
+  box-shadow:
     0 0.35em 0 0 black,
     0 0.7em 0 0 black;
 }
